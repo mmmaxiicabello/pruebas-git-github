@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0; 
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+   
+}
+
+header {
+    background-color: #272727;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    color: #FDFFFC;
+    margin: 0px 20px;
+    display: inline;
+    padding: 20px 25px ;
+}
+
+header .links a:hover{
+    color: rgb(0, 0, 0);
+    background-color:#C1292E ;
+    border-radius: 7%;
+}
+
+
+.fotologo {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding-top: 20px;
+    border-radius: 5%;
+    
+
+}
+ 
+.principal{
+    background-color: #E0E0E0;
+    border-top: solid #C1292E 3px ;
+    border-bottom:solid #C1292E 3px;
+    width: 100%;
+    height: 90.8vh;
+}
+
+
+
+.logos{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    padding-top: 7vh;
+    
+}
+.textos{
+    color: #272727;
+    text-align: center;
+    font-size: 18px;
+    padding: 1% 5% 0px 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logohtml{
+    width: 250px;
+    height: 250px;
+}
+
+.logocss{
+    width: 200px;
+    height: 275px; 
+}
+
+.logojava{
+    width: 330px;
+    height: 260px;
+}
+
+
+.textohtml{
+    margin-right: 15%;
+}
+
+.textocss{
+    margin-right: 15%;
+}
+
+.textojava{
+    margin-right: 5%
+}
+
+.titulo{
+    font-size: 4vh ;
+    font-weight: 600;
+    padding-top: 65px;
+    display: flex;
+    justify-content: center;
+}
